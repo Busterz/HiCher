@@ -1,0 +1,48 @@
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\obj\Debug\iCherDialog.csprojResolveAssemblyReference.cache
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\obj\Debug\iCherDialog.csproj.CoreCompileInputs.cache
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Bot Application.dll.config
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Bot Application.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Bot Application.pdb
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Autofac.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Chronic.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.Bot.Builder.Autofac.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.Bot.Builder.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.Bot.Connector.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.Rest.ClientRuntime.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Newtonsoft.Json.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\System.Net.Http.Formatting.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\System.Web.Http.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\System.Web.Http.WebHost.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Autofac.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.Bot.Builder.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.Bot.Builder.Autofac.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.Bot.Connector.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Newtonsoft.Json.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\System.Net.Http.Formatting.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\System.Web.Http.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\System.Web.Http.WebHost.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\ar\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\cs\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\en\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\es\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\fa\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\fr\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\it\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\ja\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\nl\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\ru\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\obj\Debug\Bot Application.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\obj\Debug\Bot Application.pdb
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\nunit.framework.dll
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\Microsoft.Rest.ClientRuntime.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\nunit.framework.xml
+D:\VS17Source\Repos\iNTUition Hackathon\iCher\iCherDialog\iCherDialog\bin\System.Json.dll
