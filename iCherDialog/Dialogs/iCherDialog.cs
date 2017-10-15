@@ -264,6 +264,7 @@ namespace iCherDialog.Dialogs
         private async Task SearchSecurities(IDialogContext context, IAwaitable<IMessageActivity> result)
         {
             await context.PostAsync("Which share class would it be for?");
+            await FifthOption(context, result);
         }
     }
 }
