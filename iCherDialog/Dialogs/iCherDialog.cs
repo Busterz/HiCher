@@ -324,6 +324,7 @@ namespace iCherDialog.Dialogs
             var highestMatchName = await ics.GetSecuritiesDescription(userInput);
 
             await context.PostAsync($"The possible stock name match is {highestMatchName}");
+            context.Wait(MessageReceived);
         }
 
         private async Task SearchSecurities(IDialogContext context, IAwaitable<IMessageActivity> result)
