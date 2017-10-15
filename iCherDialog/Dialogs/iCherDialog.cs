@@ -17,9 +17,9 @@ namespace iCherDialog.Dialogs
             var resultMessage = await result;
             var userInput = resultMessage.Text;
 
-            if (userInput.ToLower().Contains("strategic income opportunities"))
+            if (userInput.ToLower().Contains("strategic income opportunities fund"))
             {
-                context.Wait(SearchSecurities);
+                await SearchSecurities(context, result);
             }
             else
             {
@@ -52,6 +52,10 @@ namespace iCherDialog.Dialogs
             if(resultMessage.Text == "1")
             {
                 await FirstOption(context);
+            }
+            else if (resultMessage.Text == "3")
+            {
+                await ThirdOption(context);
             }
             else if(resultMessage.Text == "4")
             {
@@ -88,6 +92,26 @@ namespace iCherDialog.Dialogs
             context.Wait(SelectedFirstOptOptions);
         }
 
+        private async Task ThirdOption(IDialogContext context)
+        {
+            await context.PostAsync("A person who buys and sells goods or assets for others.");
+            await context.PostAsync("Would you like to invest in Microsoft?");
+            var hero = new HeroCard
+            {
+                Title = "Options: ",
+                Buttons = new List<CardAction>
+                {
+                    new CardAction{Type = ActionTypes.ImBack, Title = "1. Yes!", Value = "1"},
+                    new CardAction{Type = ActionTypes.ImBack, Title = "2. No :(", Value = "2"}
+                }
+            };
+
+            var att = hero.ToAttachment();
+            await SendAttachment(context, att);
+
+            context.Wait(SelectedThirdOptOptions);
+        }
+
         private async Task SelectedFirstOptOptions(IDialogContext context, IAwaitable<IMessageActivity> result)
         {
             var resultMessage = await result;
@@ -103,11 +127,52 @@ namespace iCherDialog.Dialogs
             }
         }
 
+        private async Task SelectedThirdOptOptions(IDialogContext context, IAwaitable<IMessageActivity> result)
+        {
+            var resultMessage = await result;
+
+            if (resultMessage.Text == "1")
+            {
+                await YesThirdOption(context);
+            }
+            else if (resultMessage.Text == "2")
+            {
+                await context.PostAsync("Type 'hi' after this.");
+                await MessageReceived(context, result);
+            }
+        }
+
         private async Task YesOption(IDialogContext context)
         {
             await context.PostAsync("There are various types of investment such as stocks, bonds, mutual funds, , ETFs and real estate. Which one would like to know more?");
 
             context.Wait(UserInputInvestmentType);
+        }
+
+        private async Task YesThirdOption(IDialogContext context)
+        {
+            await context.PostAsync("Congratulations! You have invested in Microsoft stocks! Please pay to your preferred broker using Paypal.");
+
+            var hero = new HeroCard
+            {
+                Title = "Options: ",
+                Buttons = new List<CardAction>
+                {
+                    new CardAction{Type = ActionTypes.ImBack, Title = "Pay by PayPal", Value = "1"}
+                }
+            };
+
+            var att = hero.ToAttachment();
+            await SendAttachment(context, att);
+
+            context.Wait(LinkBackToTop);
+        }
+
+        private async Task LinkBackToTop(IDialogContext context, IAwaitable<IMessageActivity> result)
+        {
+            //await context.PostAsync("Type 'hi' after this.");
+
+            await MessageReceived(context, result);
         }
 
         private async Task UserInputInvestmentType(IDialogContext context, IAwaitable<IMessageActivity> result)
@@ -265,6 +330,7 @@ namespace iCherDialog.Dialogs
         {
             await context.PostAsync("Which share class would it be for?");
             await FifthOption(context, result);
+            //context.Wait(FifthOption);
         }
     }
 }
