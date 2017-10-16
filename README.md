@@ -1,5 +1,5 @@
 # HiCher
-This project is created for iNTUition Hackathon 2017.
+This project is created for **iNTUition Hackathon 2017**.
 
 
 ### Introduction
@@ -8,5 +8,6 @@ The language used is C# with Microsoft Bot Framework.
 
 
 ### More Info
-Currently, this chat bot only works with Microsoft Bot Emulator. </br>
-It was intended to be implemented into messengers like Facebook Messenger for the ease to use.
+This chat bot works with Microsoft Bot Emulator. </br>
+It also has been integrated into Facebook Messenger. Search for HiCher facebook page and chat with the bot! </br>
+There would be more updates and it might be implemented into more platforms other than just Facebook Messenger.
