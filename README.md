@@ -1,5 +1,5 @@
 # HiCher
-This project is created for iNTUition Hackathon 2017.
+This project is created for **iNTUition Hackathon 2017**.
 
 
 ### Introduction
